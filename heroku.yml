@@ -1,0 +1,4 @@
+build:
+  docker:
+run:
+  web: docker-compose up
