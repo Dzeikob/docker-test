@@ -2,7 +2,7 @@ version: '3'
 
 services:
   api-service:
-    build: ./api-service
+    image: php:apache
     volumes:
       - ./api-service:/var/www/html
     ports:
